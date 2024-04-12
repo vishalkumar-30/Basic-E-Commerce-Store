@@ -2,6 +2,8 @@
 
 This project is an E-Commerce website built using React for the client-side and Node.js with Express for the server-side. It is a microservice based architecture we followed MVC pattern
 
+#### Video Link: [Watch the video](https://www.loom.com/share/d88a4db4eae745079022a5ecf210c784?sid=7a66c6c0-c4eb-46cc-b9d4-1c118bd20b69)
+
 ## Folder Structure
 
 The project consists of two main folders: `client` and `server`.
@@ -29,19 +31,19 @@ The `server` folder contains all the files related to the back-end of the applic
   - **services**: Contains business logic and utility functions.
   - **index.js**: The main entry point of the Node.js application.
 
-## Installation
+# Installation
 
 - clone the project on your local
 
-## Set up Database
+### Set up Database
 
-Step 1: Download this output_file.sql file any where may be in downloads
-Step 2: cd downloads
-Step 3: mysql -u root -p estore <Basic-E-Commerce-Store output_file.sql
+- Download this output_file.sql file any where may be in downloads
+- cd downloads
+- mysql -u root -p estore <Basic-E-Commerce-Store output_file.sql
 
-## Schema of the Database
+### Schema of the Database
 
-![Schema](</Basic-E-Commerce-Store/Cart Store/assets/Whole Schema EStore.png>)
+![Schema](/Basic-E-Commerce-Store/Cart Store/assets/Whole Schema EStore.png)
 
 ### Client
 
@@ -59,7 +61,7 @@ To install the dependencies for the server-side application, navigate to the `se
 npm install
 ```
 
-## Usage
+### Usage
 
 To start the client-side application, run the following command in the `client` folder:
 
@@ -73,26 +75,26 @@ To start the server-side application, run the following command in the `server` 
 npm start
 ```
 
-### SignUp Page
+## SignUp Page
 
 ![alt text](assets/signup.png)
 
-### Login Page
+## Login Page
 
 ![alt text](assets/LogIn%20Page.png)
 
-### Items of Store
+## Items of Store
 
 ![alt text](assets/Items%20List.png)
 
-### Items in the Cart
+## Items in the Cart
 
 ![alt text](assets/CartItems.png)
 
-### Placed Ordered Items
+## Placed Ordered Items
 
 ![alt text](assets/Placed%20ordered.png)
 
-### JWT Token for Authentication
+## JWT Token for Authentication
 
 ![alt text](assets/Tokencart.png)
