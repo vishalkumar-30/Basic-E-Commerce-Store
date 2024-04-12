@@ -27,7 +27,6 @@ function App() {
   //   setIsLoggedIn(false);
   // };
   const handleLogout = () => {
-    // Clear local storage token
     localStorage.removeItem("token");
     window.location.href = "http://localhost:3000";
   };
@@ -44,22 +43,17 @@ function App() {
   };
 
   const placeOrder = () => {
-    // Convert cart to order
     setOrders([...orders, cartItems]);
     setCartItems([]);
-    // Show toast for successful order
     alert("Order successful");
-    // Redirect to ListItems screen
     history.push("/");
   };
 
   const viewCart = () => {
-    // Show all the cart items
     alert(`Cart Items: ${JSON.stringify(cartItems)}`);
   };
 
   const viewOrderHistory = () => {
-    // Show all placed orders
     alert(`Order History: ${JSON.stringify(orders)}`);
   };
 

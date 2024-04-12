@@ -5,7 +5,7 @@ const Login = () => {
   const [password, setPassword] = useState("");
 
   const handleLogin = async (e) => {
-    e.preventDefault(); // Prevent form from causing a page reload
+    e.preventDefault();
 
     try {
       const response = await fetch("http://localhost:8000/users/login", {
@@ -25,7 +25,6 @@ const Login = () => {
       localStorage.setItem("token", data.token);
       window.location.href = "http://localhost:3000/";
       console.log("Login successful", data);
-      // Handle successful login here (e.g., redirect, store token, etc.)
     } catch (error) {
       console.error(error);
       window.alert("Invalid username/password");
