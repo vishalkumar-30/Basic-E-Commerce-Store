@@ -43,7 +43,7 @@ The `server` folder contains all the files related to the back-end of the applic
 
 ### Schema of the Database
 
-![Schema](/Basic-E-Commerce-Store/Cart Store/assets/Whole Schema EStore.png)
+![Schema](assets/Basic-E-Commerce-Store/Cart Store/assets/Whole Schema EStore.png)
 
 ### Client
 
