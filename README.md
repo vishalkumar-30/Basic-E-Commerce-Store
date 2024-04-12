@@ -75,24 +75,24 @@ npm start
 
 ### SignUp Page
 
-![alt text](/Basic-E-Commerce-Store/Cart%20Store/assets/signup.png)
+![alt text](assets/signup.png)
 
 ### Login Page
 
-![alt text](</Basic-E-Commerce-Store/Cart Store/assets/LogIn Page.png>)
+![alt text](assets/LogIn%20Page.png)
 
 ### Items of Store
 
-![alt text](</Basic-E-Commerce-Store/Cart Store/assets/Items List.png>)
+![alt text](assets/Items%20List.png)
 
 ### Items in the Cart
 
-![alt text](/Basic-E-Commerce-Store/Cart%20Store/assets/CartItems.png)
+![alt text](assets/CartItems.png)
 
 ### Placed Ordered Items
 
-![alt text](</Basic-E-Commerce-Store/Cart Store/assets/Placed ordered.png>)
+![alt text](assets/Placed%20ordered.png)
 
 ### JWT Token for Authentication
 
-![alt text](/Basic-E-Commerce-Store/Cart%20Store/assets/Tokencart.png)
+![alt text](assets/Tokencart.png)
